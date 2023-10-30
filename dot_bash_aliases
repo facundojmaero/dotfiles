@@ -3,20 +3,10 @@ alias h='history'
 alias cs='clear;ls --color=auto --group-directories-first'
 alias ..='cd ..'
 alias ...='cd ..; cd ..'
-alias o=xdg-open
 
 alias st='git status'
 
-alias titanx='ssh fmaero@192.168.0.56'
-alias nau='nautilus . &'
 alias ll='ls -l'
 alias ls='ls --color=auto --group-directories-first'
 
 alias q='exit'
-
-alias ecrlogin='$(aws ecr get-login --no-include-email --region us-west-2)'
-
-alias age2='cd /home/facundo/Games/TheConquerors/age2_x1 && wine age2_x2.exe'
-
-PS1=${PS1%?}
-PS1=${PS1%?}\n'$ '
