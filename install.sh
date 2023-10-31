@@ -1,5 +1,8 @@
 #!/bin/bash
 
-HOME_DIR=/workspaces/.codespaces/.persistedshare/dotfiles
+set -euxo pipefail
 
-source $HOME_DIR/.bash_aliases
+DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+[[ -e ~/.dotfiles ]] || ln -s "$DIR" ~/.dotfiles
+
+echo "source ~/.dotfiles/.bash_aliases" >> ~/.bash_aliases
