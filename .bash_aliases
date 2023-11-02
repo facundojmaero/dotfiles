@@ -11,4 +11,4 @@ alias ls='ls --color=auto --group-directories-first'
 
 alias q='exit'
 
-export PRE_COMMMIT_ENABLED=true
+export PRE_COMMIT_ENABLED=true
