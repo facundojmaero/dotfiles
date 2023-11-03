@@ -11,4 +11,6 @@ alias ls='ls --color=auto --group-directories-first'
 
 alias q='exit'
 
+alias orval="cd $CODESPACE_VSCODE_FOLDER/src/frontend/rsdk; yarn run build:apiClient; cd $CODESPACE_VSCODE_FOLDER";
+
 export PRE_COMMIT_ENABLED=true
