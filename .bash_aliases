@@ -13,5 +13,6 @@ alias q='exit'
 
 alias orval="cd $CODESPACE_VSCODE_FOLDER/src/frontend/rsdk; yarn run build:apiClient; cd $CODESPACE_VSCODE_FOLDER";
 alias rxn="cd $CODESPACE_VSCODE_FOLDER/src/frontend/reactNativeApp; yarn start";
+alias log="git log --oneline";
 
 export PRE_COMMIT_ENABLED=true
